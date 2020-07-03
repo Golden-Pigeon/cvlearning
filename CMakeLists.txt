@@ -3,7 +3,7 @@ project(cvlearning)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(cvlearning main.cpp)
+add_subdirectory(src)
 
 set(OpenCV_DIR D:\\OpenCV\\opencv\\build)
 find_package(OpenCV REQUIRED)

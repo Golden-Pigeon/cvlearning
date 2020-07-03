@@ -9,7 +9,7 @@ int main() {
     Mat kernel_3x3 = (Mat_<char>(3, 3) << -1,-1,-1,-1,8,-1,-1,-1,-1);
     Mat res;
 
-    Mat img = imread(R"(C:\Users\86133\CLionProjects\cvlearning\lenna.jfif)", IMREAD_COLOR);
+    Mat img = imread(R"(C:\Users\86133\CLionProjects\cvlearning\images\jpg\lenna.jfif)", IMREAD_COLOR);
     filter2D(img, res, img.depth(), kernel_3x3);
     imshow("lenna", res);
     waitKey();
