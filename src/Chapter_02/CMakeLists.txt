@@ -1,0 +1,1 @@
+add_executable(cvlearning videoPlayer/playVideo.cpp)
