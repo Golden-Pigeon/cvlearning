@@ -8,7 +8,7 @@ int main() {
     cv::Mat kernel_3x3 = (cv::Mat_<char>(3, 3) << -1,-1,-1,-1,8,-1,-1,-1,-1);
     cv::Mat res;
 
-    cv::Mat img = cv::imread(R"(..\..\images\jpg\lenna.jfif)", cv::IMREAD_COLOR);
+    cv::Mat img = cv::imread(R"(..\..\..\images\jpg\lenna.jfif)");
     if(img.empty()){
         cerr<<"cannot open the file"<<endl;
         return -1;

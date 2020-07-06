@@ -1,1 +1,1 @@
-add_executable(cvlearning main.cpp)
+add_executable(introduction main.cpp)

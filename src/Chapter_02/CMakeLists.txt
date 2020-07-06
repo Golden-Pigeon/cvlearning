@@ -1,1 +1,6 @@
-add_executable(cvlearning videoPlayer/playVideo.cpp)
+add_executable(playVideo videoPlayer/playVideo.cpp)
+add_executable(showImg showImage/showImg.cpp)
+add_executable(graphTrans graphTransformation/graphTrans.cpp)
+add_executable(camara camara/camara.cpp)
+add_executable(writeVideo videoPlayer/writeVideo.cpp)
+add_executable(lk exercise/lkdemo.cpp)
